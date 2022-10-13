@@ -19,15 +19,20 @@
             $("#disp1").css("font-size","x-large");
             $("#disp1").css("font-family","fantasy");
             $("#disp1").css("background-color","lightgray");
-            var a=new Array(3);
-            a[0]=10;
-            a[1]=50;
-            a[2]=30;
+            /*var a=new Array(3);
+            a[0]=10;a[1]=50;a[2]=30;
             var msg="";
             for(let i=0;i<a.length;i++){
                 msg+=i+":"+a[i]+"<br>";
+            }*/
+            let txt1="";
+            let pointA=[5,2];
+            txt1+="x:"+pointA[0]+"y:"+pointA[1]+"<br>";
+            for(let i=0;i<pointA.length;i++){
+                pointA[i]+=5;
             }
-            $("#disp1").html(msg);
+            txt1+="x:"+pointA[0]+"y:"+pointA[1]+"<br>";
+            $("#disp1").html(txt1);
 
             var a=[100,20,-5];
             var msg="";
