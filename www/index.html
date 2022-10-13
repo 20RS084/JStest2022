@@ -44,11 +44,18 @@
             }else{
                 txt+="FALSE<br>"
             }
-            txt+="a: "+a+"<br>";*/
+            txt+="a: "+a+"<br>";
             for(let i=0;i<a.length;i++){
                 msg+=i+":"+a[i]+"<br>";
+            }*/
+            let txt2="";
+            let pointH={x:5,y:2};
+            txt2+="x:"+pointH["x"]+"y:"+pointH["y"]+"<br>";
+            for(let key in pointH){
+                pointH[key]+=5;
             }
-            $("#disp2").html(msg);
+            txt2+="x:"+pointH["x"]+"y:"+pointH["y"]+"<br>";
+            $("#disp2").html(txt2);
         }
     </script>
 </head>
