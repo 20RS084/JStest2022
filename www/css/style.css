@@ -1,7 +1,7 @@
 /**/
 
 html,body {
-  background: skyblue;
+  background: rgb(81, 70, 119);
   height: 100%;
 }
 
@@ -12,6 +12,7 @@ html,body {
   margin: 5px;
   height: 40%;
   background: white;
+  font-size: 20px;
 }
 
 #btn {
